@@ -1,0 +1,37 @@
+@charset "UTF-8";
+html{
+    scroll-behavior: smooth;
+}
+body{
+    text-align:center;
+    font-family: "Corbel Light", sans-serif;
+    background-image: -moz-linear-gradient(mintcream, lightskyblue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+#logo{
+    height:150px;
+    width: 150px;
+    bottom:0;
+    right:0;
+    z-index: -1;
+}
+header nav menu{
+    text-align: center;
+    align-content: center;
+    border:4px black;
+    list-style: none;
+}
+/*These values I got from W3C fieldset example*/
+#new_patient_form{
+    justify-content: center;
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 3px mintcream;
+}

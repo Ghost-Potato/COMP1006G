@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Assignment 1 COMP1006G Intro to Web Programming">
+<!--    Style Sheets    -->
+    <link rel="stylesheet" href="./css/styles.css">
+<!--    Page Icon       -->
+    <link rel="page_logo" href="img/beluga-icon.png" type="image/x-icon">
+    <title>Patient Portal</title>
+</head>
+<body>
+    <div id="logo">
+        <img src="img/beluga-icon.png" alt="company logo">
+    </div>
+    <header>
+        <h1>Beluga Patient Portal</h1>
+        <nav>
+            <menu>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </menu>
+        </nav>
+    </header>
+    <h2>Patient Information Form</h2>
+        <p>Please fill out the form below and one of our team will reach out to schedule an appointment. Please give us at least 5 business days to reply.</p>
+    <section class="patient">
+        <fieldset id="patient">
+            <form id="new_patient_form" action="patient_form.php">
+                <p><input type="text" name="name" placeholder="First and Last Name"></p>
+                <p><input type="tel" name="phone" placeholder="Primary Phone Number"></p>
+                <p><input type="email" name="email" placeholder="Your Email"></p>
+                <p><input type="number" name="health_card" placeholder="OHIP Number"></p>
+                <p><input type="date" name="date_of_birth" placeholder="Date of Birth"></p>
+                <input class="button" type="submit" name="Submit" value="Add">
+                <input class="button" type="reset" name="Clear">
+            </form>
+        </fieldset>
+    </section>
+</body>
+<footer>
+    <p><a href="contact.html">Contact Us<a/></p>
+    <p><a href="index.html">Home</a></p>
+</footer>
+</html>
